@@ -7,11 +7,11 @@ class Code
 	public:
 	    Code();
 		std::string code_text(std::string);
-	    std::string decode_text(std::string);
+	        std::string decode_text(std::string);
 
 	private:
 	    void set_map();
-		std::map<char, char> mmap;
+	    std::map<char, char> mmap;
 };
 
 
